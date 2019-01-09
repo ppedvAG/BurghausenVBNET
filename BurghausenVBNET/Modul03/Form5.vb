@@ -11,5 +11,7 @@ Public Class Form5
         Label1.Text = d.ToString("d.MMM yy") 'date format expressions
         Label1.Text = d.AddDays(10).ToLongDateString
 
+
+
     End Sub
 End Class
