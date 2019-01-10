@@ -4,7 +4,7 @@
 
 
         Dim q = From pc In procList
-                Order By pc.PagedMemorySize64
+                Order By pc.PagedMemorySize64 Descending
                 Select pc.ProcessName
 
         ListBox1.DataSource = q.ToArray
