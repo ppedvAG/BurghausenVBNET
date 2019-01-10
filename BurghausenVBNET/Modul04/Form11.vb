@@ -5,9 +5,13 @@
         For schleifenzähler = 0 To 9
             If schleifenzähler < 7 Then
                 baum(schleifenzähler) = vieleSternchen.Substring(0, schleifenzähler + 1)
+                ' baum(schleifenzähler) = StrDup(schleifenzähler + 1, "*")
             Else
                 baum(schleifenzähler) = "*"
             End If
+            'kurzvariante
+            'baum(schleifenzähler) = If(schleifenzähler < 7, 
+            '    vieleSternchen.Substring(0, schleifenzähler + 1), "*")
         Next
         ListBox1.DataSource = baum
     End Sub
