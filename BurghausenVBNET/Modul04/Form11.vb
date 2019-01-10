@@ -9,7 +9,6 @@
                 baum(schleifenzähler) = "*"
             End If
         Next
-
         ListBox1.DataSource = baum
     End Sub
 End Class
