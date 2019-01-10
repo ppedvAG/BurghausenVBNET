@@ -189,6 +189,12 @@
     <Compile Include="Modul06\Form18.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Modul06\Form19.Designer.vb">
+      <DependentUpon>Form19.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modul06\Form19.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -259,6 +265,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modul06\Form18.resx">
       <DependentUpon>Form18.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modul06\Form19.resx">
+      <DependentUpon>Form19.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
