@@ -14,8 +14,10 @@
             {"ä", "ae"},
            {"ß", "ss"}
              }
-
         '  ht.Add("Ö", "OE")
+
+
+
 
         For Each item As DictionaryEntry In ht
             text = text.Replace(item.Key.ToString, item.Value.ToString)
