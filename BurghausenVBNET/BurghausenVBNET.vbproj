@@ -257,6 +257,13 @@
     <Compile Include="Modul07\pkw2.vb" />
     <Compile Include="Modul07\Positionen.vb" />
     <Compile Include="Modul07\Rechnung.vb" />
+    <Compile Include="modul10\Form29.Designer.vb">
+      <DependentUpon>Form29.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modul10\Form29.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modul10\orte.vb" />
     <Compile Include="Modul12\Form28.Designer.vb">
       <DependentUpon>Form28.vb</DependentUpon>
     </Compile>
@@ -361,6 +368,9 @@
     <EmbeddedResource Include="Modul07\Form27.resx">
       <DependentUpon>Form27.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="modul10\Form29.resx">
+      <DependentUpon>Form29.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Modul12\Form28.resx">
       <DependentUpon>Form28.vb</DependentUpon>
     </EmbeddedResource>
@@ -372,6 +382,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="modul10\germany_de.csv" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
