@@ -56,6 +56,10 @@
       <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ComponentModel.Annotations.4.5.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
@@ -213,7 +217,21 @@
     <Compile Include="Modul07\Form22.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Modul07\Form23.Designer.vb">
+      <DependentUpon>Form23.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modul07\Form23.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modul07\Form24.Designer.vb">
+      <DependentUpon>Form24.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modul07\Form24.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modul07\Lotto.vb" />
     <Compile Include="Modul07\pkw.vb" />
+    <Compile Include="Modul07\pkw2.vb" />
     <Compile Include="Modul07\Positionen.vb" />
     <Compile Include="Modul07\Rechnung.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -298,6 +316,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modul07\Form22.resx">
       <DependentUpon>Form22.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modul07\Form23.resx">
+      <DependentUpon>Form23.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modul07\Form24.resx">
+      <DependentUpon>Form24.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
