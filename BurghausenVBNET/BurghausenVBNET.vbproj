@@ -277,10 +277,17 @@
     <Compile Include="Modul11\Form31.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Modul12\EierUhr.vb" />
     <Compile Include="Modul12\Form28.Designer.vb">
       <DependentUpon>Form28.vb</DependentUpon>
     </Compile>
     <Compile Include="Modul12\Form28.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modul12\Form32.Designer.vb">
+      <DependentUpon>Form32.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modul12\Form32.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -392,6 +399,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modul12\Form28.resx">
       <DependentUpon>Form28.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modul12\Form32.resx">
+      <DependentUpon>Form32.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
