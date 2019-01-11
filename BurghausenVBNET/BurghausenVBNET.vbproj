@@ -257,6 +257,12 @@
     <Compile Include="Modul07\pkw2.vb" />
     <Compile Include="Modul07\Positionen.vb" />
     <Compile Include="Modul07\Rechnung.vb" />
+    <Compile Include="Modul12\Form28.Designer.vb">
+      <DependentUpon>Form28.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modul12\Form28.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -354,6 +360,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modul07\Form27.resx">
       <DependentUpon>Form27.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modul12\Form28.resx">
+      <DependentUpon>Form28.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
