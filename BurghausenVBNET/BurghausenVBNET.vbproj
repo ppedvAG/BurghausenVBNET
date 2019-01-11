@@ -199,6 +199,7 @@
     <Compile Include="Modul06\Form19.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Modul07\Class1.vb" />
     <Compile Include="Modul07\Form20.Designer.vb">
       <DependentUpon>Form20.vb</DependentUpon>
     </Compile>
@@ -233,6 +234,12 @@
       <DependentUpon>Form25.vb</DependentUpon>
     </Compile>
     <Compile Include="Modul07\Form25.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modul07\Form26.Designer.vb">
+      <DependentUpon>Form26.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modul07\Form26.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modul07\Lotto.vb" />
@@ -334,6 +341,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Modul07\Form25.resx">
       <DependentUpon>Form25.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modul07\Form26.resx">
+      <DependentUpon>Form26.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
