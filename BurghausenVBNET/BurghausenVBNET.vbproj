@@ -263,7 +263,14 @@
     <Compile Include="modul10\Form29.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="modul10\Form30.Designer.vb">
+      <DependentUpon>Form30.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modul10\Form30.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="modul10\orte.vb" />
+    <Compile Include="modul10\wetter.vb" />
     <Compile Include="Modul12\Form28.Designer.vb">
       <DependentUpon>Form28.vb</DependentUpon>
     </Compile>
@@ -370,6 +377,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="modul10\Form29.resx">
       <DependentUpon>Form29.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modul10\Form30.resx">
+      <DependentUpon>Form30.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modul12\Form28.resx">
       <DependentUpon>Form28.vb</DependentUpon>
